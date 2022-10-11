@@ -64,18 +64,6 @@ button:hover {
 }
 
 
-
-.input-screen .prev-input {
-  color: rgba(255, 255, 255, .75);
-  font-size: 1.5rem;
-}
-
-.input-screen .curr-input {
-  color:#fff;
-  font-size: 2.5rem;
-}
-
-
 #highlight {
   background-color: #7d848be0 !important;
   color: #fff !important;
