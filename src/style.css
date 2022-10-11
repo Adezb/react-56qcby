@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto:wght@300&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  background-color: #36353525;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 85px);
+  grid-template-rows: minmax(100px, auto) repeat(5, 85px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.wrapper > button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid #9c9c9c9c;
+  border-radius: 5px;
+  margin: 0.9px;
+  outline: none;
+  background: rgba(204, 199, 199, 0.842);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
+button:hover {
+  background-color: #9c9c9c9c;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+
+.input-screen {
+  grid-column: 1 /-1;
+  background-color: rgba(7, 7, 6, 0.514);
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 2.5rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px; 
+}
+
+
+
+.input-screen .prev-input {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+
+.input-screen .curr-input {
+  color:#fff;
+  font-size: 2.5rem;
+}
+
+
+#highlight {
+  background-color: #7d848be0 !important;
+  color: #fff !important;
+}
+
+#highlight:hover {
+  background-color: #9c9c9c9c !important ;
+  color: #000 !important ;
+}
