@@ -27,7 +27,6 @@ export default function App() {
     setDisplay(input);
   }
 
-  
   const del = () => {
     if (display === '') {
       return;
