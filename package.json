@@ -4,8 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-number-format": "^5.0.1"
+    "react-dom": "^18.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
